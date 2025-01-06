@@ -24,3 +24,42 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+.content{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.header,
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.left-links{
+  display: flex;
+  margin: 15px;
+}
+.right-links{
+  display: flex;
+}
+
+li{
+  padding: 10px;
+  list-style-type: none;
+}
+
+
+.content {
+  text-align: center;
+  padding: 20px;
+  height: 66vh;
+  padding-top: 100px;
+}
+
+/* You could also create another container 
+    around contet that way its easier to move around
+*/
+.footer{
+  background-color: rgba(211, 211, 211, 0.301);
+  
+
+}
